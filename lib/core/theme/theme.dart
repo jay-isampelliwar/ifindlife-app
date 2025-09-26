@@ -230,7 +230,7 @@ class ITheme {
       shadowColor: IColors.shadowMedium,
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: IBorderRadius.card),
-      margin: ISpacing.zero,
+      margin: IPadding.zero,
     );
   }
 
@@ -283,7 +283,7 @@ class ITheme {
   // List Tile Theme
   static ListTileThemeData get _listTileTheme {
     return ListTileThemeData(
-      contentPadding: ISpacing.zero,
+      contentPadding: IPadding.zero,
       titleTextStyle: ITypography.titleMedium,
       subtitleTextStyle: ITypography.bodyMedium,
       leadingAndTrailingTextStyle: ITypography.bodyMedium,
@@ -387,7 +387,7 @@ class ITheme {
       unselectedLabelStyle: ITypography.labelMedium,
       indicator: UnderlineTabIndicator(
         borderSide: const BorderSide(color: IColors.aquaBlue, width: 2),
-        insets: ISpacing.horizontalMedium,
+        insets: IPadding.horizontalMedium,
       ),
       indicatorSize: TabBarIndicatorSize.label,
     );
