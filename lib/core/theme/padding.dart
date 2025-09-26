@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class IFlSpacing {
+class ISpacing {
   static EdgeInsetsGeometry get zero => const EdgeInsets.all(0);
   static EdgeInsetsGeometry get extraSmall => const EdgeInsets.all(4);
   static EdgeInsetsGeometry get small => const EdgeInsets.all(8);

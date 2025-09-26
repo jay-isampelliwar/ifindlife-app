@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class IFlColors {
+class IColors {
   // Primary Brand Colors
   static const Color aquaBlue = Color(0xFF5AC8FA);
   static const Color mutedPurple = Color(0xFFA88BEB);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'ifl_colors.dart';
+import 'colors.dart';
 
-class IFlTypography {
+class ITypography {
   // Font Families
   static const String primaryFont = 'SF Pro Display';
   static const String secondaryFont = 'Lato';
@@ -20,7 +20,7 @@ class IFlTypography {
     fontSize: 40,
     fontWeight: bold,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.2,
   );
 
@@ -28,7 +28,7 @@ class IFlTypography {
     fontSize: 36,
     fontWeight: bold,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.2,
   );
 
@@ -36,7 +36,7 @@ class IFlTypography {
     fontSize: 32,
     fontWeight: bold,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.2,
   );
 
@@ -45,7 +45,7 @@ class IFlTypography {
     fontSize: 28,
     fontWeight: semiBold,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.3,
   );
 
@@ -53,7 +53,7 @@ class IFlTypography {
     fontSize: 24,
     fontWeight: semiBold,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.3,
   );
 
@@ -61,7 +61,7 @@ class IFlTypography {
     fontSize: 20,
     fontWeight: semiBold,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.3,
   );
 
@@ -70,7 +70,7 @@ class IFlTypography {
     fontSize: 22,
     fontWeight: medium,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.4,
   );
 
@@ -78,7 +78,7 @@ class IFlTypography {
     fontSize: 18,
     fontWeight: medium,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.4,
   );
 
@@ -86,7 +86,7 @@ class IFlTypography {
     fontSize: 16,
     fontWeight: medium,
     fontFamily: primaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.4,
   );
 
@@ -95,7 +95,7 @@ class IFlTypography {
     fontSize: 16,
     fontWeight: regular,
     fontFamily: secondaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.5,
   );
 
@@ -103,7 +103,7 @@ class IFlTypography {
     fontSize: 14,
     fontWeight: regular,
     fontFamily: secondaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.5,
   );
 
@@ -111,7 +111,7 @@ class IFlTypography {
     fontSize: 12,
     fontWeight: regular,
     fontFamily: secondaryFont,
-    color: IFlColors.textSecondary,
+    color: IColors.textSecondary,
     height: 1.5,
   );
 
@@ -120,7 +120,7 @@ class IFlTypography {
     fontSize: 14,
     fontWeight: medium,
     fontFamily: secondaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.4,
   );
 
@@ -128,7 +128,7 @@ class IFlTypography {
     fontSize: 12,
     fontWeight: medium,
     fontFamily: secondaryFont,
-    color: IFlColors.textPrimary,
+    color: IColors.textPrimary,
     height: 1.4,
   );
 
@@ -136,7 +136,7 @@ class IFlTypography {
     fontSize: 10,
     fontWeight: medium,
     fontFamily: secondaryFont,
-    color: IFlColors.textSecondary,
+    color: IColors.textSecondary,
     height: 1.4,
   );
 
@@ -145,7 +145,7 @@ class IFlTypography {
     fontSize: 12,
     fontWeight: light,
     fontFamily: secondaryFont,
-    color: IFlColors.textTertiary,
+    color: IColors.textTertiary,
     height: 1.4,
   );
 
@@ -154,7 +154,7 @@ class IFlTypography {
     fontSize: 18,
     fontWeight: medium,
     fontFamily: primaryFont,
-    color: IFlColors.textOnPrimary,
+    color: IColors.textOnPrimary,
     height: 1.2,
   );
 
@@ -162,7 +162,7 @@ class IFlTypography {
     fontSize: 16,
     fontWeight: medium,
     fontFamily: primaryFont,
-    color: IFlColors.textOnPrimary,
+    color: IColors.textOnPrimary,
     height: 1.2,
   );
 
@@ -170,7 +170,7 @@ class IFlTypography {
     fontSize: 14,
     fontWeight: medium,
     fontFamily: primaryFont,
-    color: IFlColors.textOnPrimary,
+    color: IColors.textOnPrimary,
     height: 1.2,
   );
 
@@ -179,7 +179,7 @@ class IFlTypography {
     fontSize: 10,
     fontWeight: medium,
     fontFamily: secondaryFont,
-    color: IFlColors.textSecondary,
+    color: IColors.textSecondary,
     letterSpacing: 1.5,
     height: 1.4,
   );
@@ -188,7 +188,7 @@ class IFlTypography {
     fontSize: 14,
     fontWeight: medium,
     fontFamily: secondaryFont,
-    color: IFlColors.aquaBlue,
+    color: IColors.aquaBlue,
     decoration: TextDecoration.underline,
     height: 1.4,
   );
@@ -197,7 +197,7 @@ class IFlTypography {
     fontSize: 12,
     fontWeight: regular,
     fontFamily: secondaryFont,
-    color: IFlColors.error,
+    color: IColors.error,
     height: 1.4,
   );
 
@@ -205,7 +205,7 @@ class IFlTypography {
     fontSize: 12,
     fontWeight: regular,
     fontFamily: secondaryFont,
-    color: IFlColors.success,
+    color: IColors.success,
     height: 1.4,
   );
 }

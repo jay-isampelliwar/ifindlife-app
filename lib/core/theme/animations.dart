@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class IFlAnimations {
+class IAnimations {
   // Duration constants (in milliseconds)
   static const Duration instant = Duration(milliseconds: 0);
   static const Duration fast = Duration(milliseconds: 150);

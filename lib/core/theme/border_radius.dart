@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class IFlBorderRadius {
+class IBorderRadius {
   static BorderRadius get zero => const BorderRadius.all(Radius.circular(0));
   static BorderRadius get extraSmall =>
       const BorderRadius.all(Radius.circular(4));
